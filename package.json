@@ -1,6 +1,6 @@
 {
   "name": "transition-states",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provide transition states to elements appearing in the DOM, e.g. when transitioning from `display: none`",
   "main": "transition-states.js",
   "scripts": {
