@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo": "serve ./demo",
-    "build-demo": "terser --compress --mangle --output ./demo/js/transition-states.js -- ./transition-states.js"
+    "build-demo": "terser --compress --mangle --output ./demo/js/transition-states.js -- ./transition-states.js",
+    "prepack": "npm run build-demo"
   },
   "repository": {
     "type": "git",

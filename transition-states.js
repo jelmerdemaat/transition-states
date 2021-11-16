@@ -11,7 +11,7 @@ const provideTransitionStates = (element = document.body, onEnter, onLeave) => {
     };
   }
 
-  const isVisible = element.offsetParent !== null;
+  const isVisible = !(element.offsetHeight === 0 && element.offsetWidth === 0);
   const state = isVisible ? "leave" : "enter";
   const className = `transition-${state}`;
   const classNameActive = `transition-${state}-active`;
