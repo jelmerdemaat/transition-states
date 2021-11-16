@@ -1,0 +1,32 @@
+{
+  "name": "transition-states",
+  "version": "0.1.0",
+  "description": "Provide transition states to elements appearing in the DOM, e.g. when transitioning from `display: none`",
+  "main": "transition-states.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "serve ./demo",
+    "build-demo": "terser --compress --mangle --output ./demo/js/transition-states.js -- ./transition-states.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jelmerdemaat/transition-states.git"
+  },
+  "keywords": [
+    "transition",
+    "states",
+    "state",
+    "provider",
+    "classnames"
+  ],
+  "author": "Jelmer de Maat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jelmerdemaat/transition-states/issues"
+  },
+  "homepage": "https://github.com/jelmerdemaat/transition-states#readme",
+  "devDependencies": {
+    "serve": "^13.0.2",
+    "terser": "^5.10.0"
+  }
+}
